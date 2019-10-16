@@ -164,6 +164,8 @@ h6 {
 }
 
 #header #logo img {
+  width :80px;
+  height :80px
   padding: 0;
   margin: 0;
 }
