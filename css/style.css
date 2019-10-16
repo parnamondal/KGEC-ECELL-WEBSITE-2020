@@ -158,14 +158,14 @@ h6 {
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: #ffcc00;
   padding-left: 10px;
   border-left: 4px solid #ffcc00;
 }
 
 #header #logo img {
-  width :80px;
-  height :80px
+  width :75px;
+  height :75px
   padding: 0;
   margin: 0;
 }
