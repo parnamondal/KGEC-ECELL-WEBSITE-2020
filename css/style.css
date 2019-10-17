@@ -191,7 +191,7 @@ h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0,0,0,0.5);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -199,6 +199,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
+  
 }
 
 #intro .carousel-container {
@@ -253,14 +254,14 @@ h6 {
 #intro .carousel-fade .carousel-inner .carousel-item,
 #intro .carousel-fade .carousel-inner .active.carousel-item-left,
 #intro .carousel-fade .carousel-inner .active.carousel-item-right {
-  opacity: 0;
+  opacity :1;
 }
 
 #intro .carousel-fade .carousel-inner .active,
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
-  opacity: 1;
-  transition: 0.5s;
+  opacity :1;
+  transition: 1s;
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item-next,
