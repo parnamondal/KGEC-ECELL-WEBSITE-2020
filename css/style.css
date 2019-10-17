@@ -199,6 +199,7 @@ h6 {
 }
 
 #header #logo img {
+  max-width:100%;
   width :75px;
   height :75px
   padding: 0;
@@ -289,14 +290,14 @@ h6 {
 #intro .carousel-fade .carousel-inner .carousel-item,
 #intro .carousel-fade .carousel-inner .active.carousel-item-left,
 #intro .carousel-fade .carousel-inner .active.carousel-item-right {
-  opacity :1;
+  opacity :0;
 }
 
 #intro .carousel-fade .carousel-inner .active,
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity :1;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item-next,
