@@ -916,12 +916,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 10;
 }
 
-#facts .counters span {
+/*#facts .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
   color: #003366;
+}*/
+#facts .lll1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  display: block;
+  color: #003366;
+}
+#facts .lll1 li{
+    display: inline;
+}
+#facts .cou{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+    font-size: 120%;
+     color: #003366;
+
 }
 
 #facts .counters p {
@@ -932,10 +949,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
 }
 
-#facts .facts-img {
+/*#facts .facts-img {
   text-align: center;
   padding-top: 30px;
-}
+}*/
 
 /* Portfolio Section
 --------------------------------*/
