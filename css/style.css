@@ -1305,7 +1305,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 
-#contact {
+/*#contact {
   padding: 60px 0;
 }
 
@@ -1402,7 +1402,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #13a456;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Footer
@@ -1436,7 +1436,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 3px;
  /* border-left: 4px solid #18d26e; */ 
 }
-
+#footer .footer-top .footer-newsletter h2{
+  padding :2px 0 6px 50px;
+}
 #footer .footer-top .footer-info p {
   font-size: 14px;
   /*line-height: 24px;*/
@@ -1561,8 +1563,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .footer-newsletter li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 0px 0px 0px 30px;
+  text-align: left;
+  padding: 0px 0px 0px 20px;
   text-decoration: none;
    font-size: 18px;
   font-family: "Montserrat", sans-serif;
