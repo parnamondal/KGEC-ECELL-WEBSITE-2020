@@ -456,7 +456,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #18d26e;
+  color: #1686f5;
 }
 
 .nav-menu ul ul {
@@ -525,7 +525,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #18d26e;
+  color: #1686f5;
 }
 
 #mobile-nav ul li li {
@@ -533,7 +533,7 @@ h6 {
 }
 
 #mobile-nav ul li.menu-active a {
-  color: #18d26e;
+  color: #1686f5;
 }
 
 #mobile-nav ul .menu-has-children i {
@@ -546,7 +546,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #18d26e;
+  color: #1686f5;
 }
 
 #mobile-nav ul .menu-has-children li a {
@@ -554,7 +554,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #18d26e;
+  color: #1686f5;
 }
 
 #mobile-body-overly {
@@ -616,7 +616,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background: #18d26e;
+  background: #1686f5;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -650,7 +650,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services i {
-  color: #18d26e;
+  color: #1686f5;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
@@ -667,7 +667,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services h4 a:hover {
-  color: #18d26e;
+  color: #1686f5;
 }
 
 #featured-services p {
@@ -675,7 +675,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   color: #fff;
   margin-bottom: 0;
-}
+}   
 
 /* About Us Section
 --------------------------------*/
