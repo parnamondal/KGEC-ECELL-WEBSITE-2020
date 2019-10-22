@@ -588,10 +588,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Sections Header
 --------------------------------*/
-
+.section-header{
+  background: #fff;
+      }
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -638,16 +640,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-services {
-  background: #000;
+  background: #fff;
 }
 
 #featured-services .box {
   padding: 30px 20px;
 }
 
-#featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
-}
+
 
 #featured-services i {
   color: #1686f5;
@@ -860,7 +860,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-
+#skills h3{
+  color:#000;
+}
 #skills {
   padding: 60px 0;
 }
