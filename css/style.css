@@ -588,12 +588,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Sections Header
 --------------------------------*/
-.section-header{
-  background: #fff;
-      }
 .section-header h3 {
   font-size: 32px;
-  color: #fff;
+  color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -618,7 +615,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background: #1686f5;
+  background: #18d26e;
   bottom: 0;
   left: calc(50% - 20px);
 }
