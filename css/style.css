@@ -682,13 +682,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #sankalp .grid1{
   width :100%;
-  height :450px;
+  height :500px;
   background-color:#021536;
   margin-bottom :50px;
   color:#c5d0e3;
 }
-#sank{
+#sankalp .grid2{
   
+}
+#sank{
 font-family: 'Samarkan Normal';
 font-weight: normal;
 font-size: 60px;
