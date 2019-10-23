@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.nav_links{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+
+
+}
+.button{
+		background-color: #24252A;
+}
+
+li, a {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none:
+
+}
+
+.nav_links{
+	list-style: none;
+
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+
+.nav_links li:nth-child(1) {
+	padding: 0 20px 0 0;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+#about img{
+	width:400px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+p{
+
+	text-align: justify;
+	font-family: "Open Sans";
+	color: #111;
+}
+
+h7{
+	font-family: "Open Sans", sans-serif;
+	color: #111;
+	font-size: .8cm;
+}
+
+#alumni img{
+	width:550px;
+	height:250px;
+	float:center;
+	margin-right: 25px;
+	margin-bottom: 15px;
+
+}
