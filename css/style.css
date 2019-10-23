@@ -1465,7 +1465,7 @@ font-size: 60px;
  /* border-left: 4px solid #18d26e; */ 
 }
 #footer .footer-top .footer-newsletter h2{
-  padding :2px 0 6px 50px;
+  padding :2px 0 6px 60px;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
@@ -1571,7 +1571,7 @@ font-size: 60px;
 
 
 #footer .footer-top .footer-newsletter {
-   padding: 0px 0px 0px 25px;
+   padding: 0px 0px 0px 60px;
   float:left;
   margin-bottom: 30px;
 }
@@ -1580,6 +1580,7 @@ font-size: 60px;
   list-style-type: none;
   margin: 0;
   padding-top: 20px;
+  padding-left:0;
   overflow: hidden;
   
 }
