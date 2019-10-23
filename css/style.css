@@ -705,7 +705,7 @@ font-size: 60px;
 /* About Us Section
 --------------------------------*/
 
-#about {
+/*#about {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
@@ -796,7 +796,7 @@ font-size: 60px;
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
-}
+}*/
 
 /* Services Section
 --------------------------------*/
