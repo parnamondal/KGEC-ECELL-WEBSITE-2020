@@ -701,7 +701,14 @@ font-size: 60px;
     font-weight: normal;
     src: local('Samarkan Normal'), url('../dependencies/SAMARN__ (1).woff') format('woff');
     }
-  
+  /* Task id
+--------------------------------*/
+#tasks .row img{
+  padding-bottom:60px;
+}
+
+
+
 /* About Us Section
 --------------------------------*/
 
@@ -816,7 +823,7 @@ font-size: 60px;
 }
 
 #services .icon i {
-  color: #18d26e;
+  color: #074a8c;
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
@@ -834,7 +841,7 @@ font-size: 60px;
 }
 
 #services .box:hover .title a {
-  color: #18d26e;
+  color: #074a8c;
 }
 
 #services .description {
@@ -1322,7 +1329,7 @@ font-size: 60px;
 }
 
 #team .member .social a:hover {
-  color: #18d26e;
+  color: #034473;
 }
 
 #team .member .social i {
