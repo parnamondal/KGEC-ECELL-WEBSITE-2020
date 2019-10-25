@@ -1,44 +1,38 @@
-  
-  
-   nav_links{
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
-}
-#student .nn{
-  background-image:url("best1.jpg");
+
+ .nn{
+  background-image:url('../images/best.jpeg');
     width: 100%;
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #f7f7f7;
+   
     background-size: cover;
 }
- p{
-  color :#033a54;
-}
-#student .hll{
+ 
+ .hll{
   margin-top:-80px;
   margin-bottom: -50px;
   padding-bottom: 50px;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.5);
 }
-#student .hdd{
-  padding-top:130px;
+.hdd{
+ 
+  color :#fff;
 
 }
-#student .row-main{
+ .row-main{
+
   width:80%;
   margin:40px 10%;
 }
-#student .card{
+.card{
   width:100%;
   height:700px;
   padding:115px 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-#student .cardimage{
+.cardimage{
   width:90%;
   height: 300px;
   margin: 20px 5%;
