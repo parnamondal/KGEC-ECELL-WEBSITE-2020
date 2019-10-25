@@ -68,10 +68,7 @@
   .nn{
     max-width: 100%;
     height: auto;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-   
+    
     background-size: cover;
   }
   .card{
