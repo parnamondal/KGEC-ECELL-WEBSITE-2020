@@ -31,12 +31,77 @@
   width:80%;
   margin:40px 10%;
 }
+.text{
+  overflow: hidden;
+  position: relative;
+}
+.text img{
+  width: 90%;
+
+}
+.text:hover img{
+  transform: scale(1.0);
+}
+
+.text img{
+  transition: all 0.4s ease 0s;
+}
+
+@media (max-width: 300px){
+  .text img{
+    display: inline-block;
+  
+}
+}
+.text .sector{
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  text-align:  center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity:0;
+  transition: .5s;
+  transform: rotateY(200deg) scale(0.5, 0.5);
+
+}
+
+.text .sector ul{
+  text-align: center;
+  position: relative;
+  top :100px;
+}
+
+.text .sector ul li  {
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 30px;
+  width: 40px;
+  
+  text-align: center;
+}
+
+.text .sector ul li :hover{
+  background-color: #97f7ee;
+  color: #97f7ee;
+  border: 1px solid transparent; 
+  }
+
 .card{
   width:100%;
-  height:600px;
+  height:550px;
  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.text:hover .sector{
+  cursor: pointer;
+  opacity: 1;
+  transform: rotateY(0deg) scale(1,1);
+}
+
 .cardimage{
   width:90%;
   height: 300px;
@@ -44,7 +109,7 @@
   border-radius:5%;
   cursor: pointer;
   background: rgb(1, 75, 88);
-  border:10px solid rgb(1, 75, 88);
+  border:6px solid rgb(0, 7, 10);
   }
  .name{
   color:#09a3eb;
@@ -54,7 +119,7 @@
   color:#cbf22e;
 }
 
- .row-ul {
+ /*.row-ul {
   list-style: none;
   margin: 0px;
   padding: 0  0 0 0px;
@@ -63,7 +128,7 @@
   display: inline;
   text-decoration: none;
   padding:7px 17px;
-}
+}*/
 
 @media(max-width:769px){
   .row-main{
@@ -120,13 +185,13 @@ i {
 
 }
 
-img:hover {
+/*img:hover {
     opacity:1;
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
     transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
-}​
+}​*/
 
 button:hover, a:hover {
     opacity: 0.7;
