@@ -1,49 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-
- .nn{
-  background-image:url('../images/best.jpeg');
+@import url('https://fonts.googleapis.com/css?family=Inknut Antiqua');
+ body{
+  background-image:url('../images/hey2.jpg');
     width: 100%;
     height: 100%;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center ;
     background-repeat: no-repeat;
-   
     background-size: cover;
+    
 }
  
  .hll{
   margin-top:-80px;
   margin-bottom: -50px;
   padding-bottom: 50px;
-  background: rgba(0,0,0,0.5);
 }
+
 .hdd{
- 
-  color :#fff;
-
+ font-family: 'Inknut Antiqua';
+ font-size:30px;
+  color :white ;
+  text-decoration: underline #91dff2;
+    
+  
 }
- .row-main{
 
+
+ .row-main{
   width:80%;
   margin:40px 10%;
 }
 .card{
   width:100%;
-  height:700px;
-  padding:115px 0px;
+  height:600px;
+ 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .cardimage{
   width:90%;
   height: 300px;
   margin: 20px 5%;
-  border-radius:55%;
+  border-radius:5%;
   cursor: pointer;
   background: rgb(1, 75, 88);
   border:10px solid rgb(1, 75, 88);
   }
  .name{
-  color:#f37907;
+  color:#09a3eb;
 }
 
  .fap{
@@ -98,12 +102,12 @@ body{
 }
 
 p {
-    font-family: "Times New Roman";
+    font-family: "'Inknut Antiqua'";
     font-size: 20px;
-    color: #FF5A09;
+    color: #032f70;
 }
 h2{
-  color: #FF5A09;
+  color: #fff;
 
 }
 
@@ -111,7 +115,7 @@ h2{
   box-sizing: inherit;
 }
 i {
-    color: #FF5A09;
+    color: #fff;
     font-size:16px;
 
 }
