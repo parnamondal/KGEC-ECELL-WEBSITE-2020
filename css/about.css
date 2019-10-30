@@ -1,28 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-
-.nav_links{
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
-
-
+body{
+   background-image: url('../images/abou.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
-#about .nav_links button {
-  background-color: #087dd1; /* Green */
-  border: none;
-  color: white;
-  
-  padding: 14px 40px;
+
+.sec-header h3 {
+  font-size: 36px;
+  color: #16BBB6 ;
+  text-transform: uppercase;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-weight: 800;
+  position: relative;
+  padding-bottom: 20px;
+  font-family:bignoodletitling;
 }
 
-#about .nav_links button {
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+.sec-header h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
 }
+
+.sec-header h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 3px;
+  background: blue;
+  bottom: 0;
+  left: calc(50% - 80px);
+}
+.sec-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
 
 #about .nav_links button:hover {
 
@@ -32,7 +53,6 @@
 li, a {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	font-size: 16px;
 	color: #edf0f1;
 	text-decoration: none:
 
@@ -71,13 +91,13 @@ p{
 
 	text-align: justify;
 	font-family: "Open Sans";
-	color: #111;
+	color: #fff;
 }
 
 h7{
-	font-family: "Open Sans", sans-serif;
-	color: #111;
-	font-size: .8cm;
+	font-family: "bignoodletitling";
+	color:  #16BBB6 ;
+	font-size: .9cm;
 }
 
 #alumni img{
