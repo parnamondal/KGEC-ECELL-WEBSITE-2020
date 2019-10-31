@@ -150,6 +150,14 @@
   }
   }
 html ,body{
+   background-image:url('../images/hey2.jpg');
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   box-sizing: border-box;
     max-width: 100%;
     overflow-x: hidden;
