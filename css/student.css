@@ -22,10 +22,7 @@
  font-size:30px;
   color :white ;
   text-decoration: underline #91dff2;
-    
-  
-}
-
+  }
 
  .row-main{
   width:80%;
@@ -54,7 +51,7 @@
 }
 }
 .text .sector{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(153, 102, 255,0.3);
   position: absolute;
   text-align:  center;
   height: 100%;
@@ -62,15 +59,16 @@
   left: 0;
   top: 0;
   opacity:0;
-  transition: .5s;
-  transform: rotateY(200deg) scale(0.5, 0.5);
+  transition: 0.5s;
+  transform: rotateY(300deg) scale(0.5, 0.5);
 
 }
 
 .text .sector ul{
   text-align: center;
   position: relative;
-  top :100px;
+  top :160px;
+  padding:
 }
 
 .text .sector ul li  {
@@ -82,18 +80,13 @@
   width: 40px;
   
   text-align: center;
+  
 }
 
-.text .sector ul li :hover{
-  background-color: #97f7ee;
-  color: #97f7ee;
-  border: 1px solid transparent; 
-  }
 
 .card{
   width:100%;
-  height:550px;
- 
+  height:500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .text:hover .sector{
@@ -109,14 +102,14 @@
   border-radius:5%;
   cursor: pointer;
   background: rgb(1, 75, 88);
-  border:6px solid rgb(0, 7, 10);
+  border:2px solid rgb(0, 7, 10);
   }
  .name{
-  color:#09a3eb;
+  color:#28283e;
 }
 
  .fap{
-  color:#cbf22e;
+  color:#fff ;
 }
 
  /*.row-ul {
@@ -169,7 +162,7 @@ body{
 p {
     font-family: "'Inknut Antiqua'";
     font-size: 20px;
-    color: #032f70;
+    color: #000;
 }
 h2{
   color: #fff;
