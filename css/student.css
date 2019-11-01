@@ -28,6 +28,7 @@
   width:80%;
   margin:40px 10%;
 }
+.container-fluid { max-width: 1200px; }
 .text{
   overflow: hidden;
   position: relative;
