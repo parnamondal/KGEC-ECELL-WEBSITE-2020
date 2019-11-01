@@ -1464,28 +1464,21 @@ font-size: 60px;
    border-right: 2px solid #94b8b8;
 }
 
-#footer .footer-top .footer-info h2 .footer-contact h2 .footer-newsletter h2{
-  font-size: 60px;
+#footer h2{
+  font-size: 30px;
   margin: 10px 0 20px 0;
-  padding: 2px 0 6px 10px;
-  /*line-height: 1;*/
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 3px;
- /* border-left: 4px solid #18d26e; */ 
 }
-#footer .footer-top .footer-newsletter h2{
-  padding :2px 0 6px 60px;
-}
-#footer .footer-top .footer-info p {
+#footer p {
   font-size: 14px;
-  /*line-height: 24px;*/
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
   color: #eee;
 }
 
-#footer .footer-top .social-links a {
+#footer .social-links a {
   font-size: 25px;
   display: inline-block;
   background: #333;
@@ -1503,8 +1496,6 @@ font-size: 60px;
 
 #footer .footer-top .social-links a:hover {
   opacity :0.4;
- /* background: #ddd;
-  color: #fff;*/
 }
 
 #footer .footer-top h3 {
@@ -1515,8 +1506,6 @@ font-size: 60px;
   position: relative;
   padding-bottom: 12px;
 }
-
-
 #footer .footer-top h3:before,
 #footer .footer-top h3::after {
   content: '';
@@ -1535,39 +1524,6 @@ font-size: 60px;
   background: #03192b;
   width: 60px;
 }
-
-/*#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 18px;
-  color: #ddd;
-}
-
-#footer .footer-top .footer-links ul li {
-  border-bottom: 1px solid #333;
-  padding: 40px 0;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #eee;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  color: #03192b;
-}*/
-
 #footer .footer-top .footer-contact {
   padding: 0px 20px 0px 20px;
   margin-left :6px;
@@ -1669,7 +1625,10 @@ font-size: 60px;
     border-right: 1px solid #ddd;
   }
 }
-
+@media (max-width:991px) {
+ #footer .footer-top {
+  padding-left:0
+ }}
 @media (min-width: 992px) {
   #testimonials .testimonial-item p {
     width: 80%;
