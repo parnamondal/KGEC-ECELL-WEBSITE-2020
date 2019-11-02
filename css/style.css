@@ -1695,12 +1695,12 @@ font-size: 60px;
     width: 80%;
   }
 }
-@media(max-width:782px){
+@media(max-width:768px){
     .intro-container{
         margin-bottom: 10px;
     }
     .carousel-item{
-        height:450px;
+        height:400px;
     }
 }
 @media only screen  and (max-width : 578px) {
@@ -1740,8 +1740,8 @@ font-size: 60px;
   }
 
   #header #logo img {
-    max-height: 50px;
-    max-width :45px;
+    max-height: 55px;
+    max-width :50px;
   }
 
   #intro h2 {
