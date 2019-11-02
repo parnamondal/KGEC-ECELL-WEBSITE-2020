@@ -11,37 +11,37 @@
     
 }
  
- .hll{
+ #students .hll{
   margin-top:-80px;
   margin-bottom: -50px;
   padding-bottom: 50px;
 }
 
-.hdd{
+#students .hdd{
  font-family: 'Inknut Antiqua';
  font-size:30px;
   color :white ;
   text-decoration: underline #91dff2;
   }
 
- .row-main{
+#students .row-main{
   width:80%;
   margin:40px 10%;
 }
-.container-fluid { max-width: 1200px; }
-.text{
+#students.container-fluid { max-width: 1200px; }
+#students .text{
   overflow: hidden;
   position: relative;
 }
-.text img{
+#students .text img{
   width: 90%;
 
 }
-.text:hover img{
+#students .text:hover img{
   transform: scale(1.0);
 }
 
-.text img{
+#students .text img{
   transition: all 0.4s ease 0s;
 }
 
@@ -51,7 +51,7 @@
   
 }
 }
-.text .sector{
+#students .text .sector{
   background-color: rgba(153, 102, 255,0.5);
   position: absolute;
   text-align:  center;
@@ -65,7 +65,7 @@
 
 }
 
-.text .sector ul{
+#students .text .sector ul{
   text-align: center;
   position: relative;
   top :160px;
@@ -85,18 +85,18 @@
 }*/
 
 
-.card{
+#students .card{
   width:100%;
   height:500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.text:hover .sector{
+#students .text:hover .sector{
   cursor: pointer;
   opacity: 1;
   transform: rotateY(0deg) scale(1,1);
 }
 
-.cardimage{
+#students .cardimage{
   width:100%;
   height: 300px;
   margin: 20px 5%;
@@ -105,11 +105,11 @@
   background: rgb(1, 75, 88);
   border:2px solid rgb(0, 7, 10);
   }
- .name{
+ #students .name{
   color:#28283e;
 }
 
- .fap{
+#students  .fap{
   color:#fff ;
 }
 
@@ -151,7 +151,7 @@
   }
   }
 html ,body{
-
+background-image:url('../images/hey2.jpg');
   box-sizing: border-box;
     max-width: 100%;
     overflow-x: hidden;
@@ -167,7 +167,7 @@ body{
     font-size: 20px;
     color: #000;
 }
-h2{
+#students h2{
   color: #fff;
 
 }
@@ -175,7 +175,7 @@ h2{
 *, *:before, *:after {
   box-sizing: inherit;
 }
-i {
+#students i {
     color: #fff;
     font-size:16px;
 
@@ -189,6 +189,6 @@ i {
     -webkit-transition: opacity .55s ease-in-out;
 }​*/
 
-button:hover, a:hover {
+#students button:hover, a:hover {
     opacity: 0.7;
 }
