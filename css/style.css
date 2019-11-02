@@ -198,8 +198,8 @@ h6 {
 }
 
  header #logo img {
-  width :75px;
-  height :75px;
+  width :60px;
+  height :62px;
   padding: 0;
   margin: 0;
 }
@@ -1445,8 +1445,95 @@ font-size: 60px;
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
 #footer {
+  background: #000;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 18px;
+}
+
+#footer .footer-top {
+  background: #03192b;
+  padding: 60px 0 30px 0;
+}
+#footer .footer-top .social-links a {
+  font-size: 26px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 12px 12px 12px 12px;
+   margin-top: 10px;
+  margin-right: 12px;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #fff;
+  color: #03192b;
+}
+#footer .footer-top .footer-newsletter li a {
+  color: white;
+}
+#footer .footer-top .footer-newsletter li a:hover {
+  color:#07abf7;
+}
+#footer .footer-top h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding:0 0 12px 0;
+}
+
+#footer .footer-top h4::before,
+#footer .footer-top h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+}
+
+#footer .footer-top h4::before {
+  right: 0;
+  background: #555;
+}
+
+#footer .footer-top h4::after {
+  background: #07abf7;
+  width: 60px;
+  height:3px;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 10px;
+  color: #ddd;
+}
+
+/*#footer {
   background: #000;
   padding: 0 0 30px 0;
   color: #eee;
@@ -1571,37 +1658,11 @@ font-size: 60px;
 
 
 
-/*#footer .footer-top .footer-newsletter input[type="email"] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #18d26e;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #13a456;
-}*/
 
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
  
-}
-
-/*#footer .credits {
-  text-align: center;
-  font-size: 13px;
-  color: #ddd;
 }*/
 
 /*--------------------------------------------------------------
