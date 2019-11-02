@@ -162,7 +162,7 @@ body{
  overflow-y:hidden;
 }
 
-p {
+#students p {
     font-family: "'Inknut Antiqua'";
     font-size: 20px;
     color: #000;
