@@ -170,9 +170,9 @@ h6 {
 } 
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(62, 64, 69, 1.0);
   padding: 20px 0;
-  height: 72px;
+  height: 74px;
   transition: all 0.5s;
 }
 
@@ -193,15 +193,15 @@ h6 {
 #header #logo h1 a,
 #header #logo h1 a:hover {
   color: #ffcc00;
-  padding-left: 10px;
+  padding-left: 8px;
   border-left: 4px solid #ffcc00;
 }
 
  header #logo img {
   width :64px;
   height :60px;
-  padding: 0;
-  margin: 0;
+  padding: 0 ;
+  margin: 0 0 8px 0;
 }
 
 /*--------------------------------------------------------------
@@ -492,7 +492,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(62, 64, 69, 1.0);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -500,12 +500,12 @@ h6 {
 }
 
 #mobile-nav ul {
-  padding: 0;
   margin: 0;
   list-style: none;
 }
 
 #mobile-nav ul li {
+  border-bottom:1px solid #072e2d;
   position: relative;
 }
 
@@ -514,7 +514,7 @@ h6 {
   font-size: 13px;
   text-transform: uppercase;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 10px 22px 10px 0px;
   position: relative;
   text-decoration: none;
   width: 100%;
