@@ -1695,7 +1695,22 @@ font-size: 60px;
     width: 80%;
   }
 }
-
+@media(max-width:782px){
+    .intro-container{
+        margin-bottom: 10px;
+    }
+    .carousel-item{
+        height:450px;
+    }
+}
+@media only screen  and (max-width : 578px) {
+   #intro h2 {
+        font-size: 1em;
+    }
+    .carousel-item{
+        height:350px;
+    }
+}
 @media (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
@@ -1725,7 +1740,8 @@ font-size: 60px;
   }
 
   #header #logo img {
-    max-height: 40px;
+    max-height: 50px;
+    max-width :45px;
   }
 
   #intro h2 {
