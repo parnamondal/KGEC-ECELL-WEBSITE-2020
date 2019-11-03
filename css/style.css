@@ -934,7 +934,7 @@ font-size: 60px;
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
 }
 
@@ -964,7 +964,7 @@ font-size: 60px;
 #facts .lll1{
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 35px;
   display: block;
   color: #003366;
 }
