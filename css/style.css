@@ -934,7 +934,7 @@ font-size: 60px;
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 70px 0;
+  padding: 58px 0;
   position: relative;
 }
 
@@ -1694,22 +1694,6 @@ font-size: 60px;
   #testimonials .testimonial-item p {
     width: 80%;
   }
-}
-@media(max-width:768px){
-    .intro-container{
-        margin-bottom: 10px;
-    }
-    .carousel-item{
-        height:400px;
-    }
-}
-@media only screen  and (max-width : 578px) {
-   #intro h2 {
-        font-size: 1em;
-    }
-    .carousel-item{
-        height:350px;
-    }
 }
 @media (min-width: 1024px) {
   #header #logo {
