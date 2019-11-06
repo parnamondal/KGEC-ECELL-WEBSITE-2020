@@ -1752,10 +1752,12 @@ font-size: 60px;
 @media only screen  and (max-width : 392px) {
     .grid2{
         margin-left: 2vh;
-       
-        
+        float:right;
+      
     }
 }
+
+
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
  .grid2{
   width:100%;
