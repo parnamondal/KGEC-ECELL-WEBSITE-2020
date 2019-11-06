@@ -763,6 +763,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #sankalp .grid2{
      padding: 5vw 5vw 5vw 10vw;
+    
 }
 #sankalp  i{
   padding-left:35px;
@@ -1751,12 +1752,9 @@ font-size: 60px;
 
 @media only screen  and (max-width : 392px) {
     .grid2{
-        margin-left: 2vh;
-        float:right;
-      
+       padding-left:40vw;
     }
 }
-
 
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
  .grid2{
