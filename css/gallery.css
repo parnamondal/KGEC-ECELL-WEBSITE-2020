@@ -1,0 +1,156 @@
+body{
+  // background-image: url('../images/abou.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.sec-header h3 {
+  font-size: 36px;
+  color: #16BBB6 ;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  position: relative;
+  padding-bottom: 20px;
+  font-family:bignoodletitling;
+}
+
+.sec-header h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.sec-header h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 3px;
+  background: blue;
+  bottom: 0;
+  left: calc(50% - 80px);
+}
+.sec-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+
+#about .nav_links button:hover {
+
+  background-color: #fff; /* Green */
+  color: #087dd1;
+}
+li, a {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	color: #edf0f1;
+	text-decoration: none:
+
+}
+
+.nav_links{
+	list-style: none;
+
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+
+.nav_links li:nth-child(1) {
+	padding: 0 20px 0 0;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+#about img{
+	width:400px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+p{
+
+	text-align: justify;
+	font-family: "Open Sans";
+	color: #fff;
+}
+
+h7{
+	font-family: "bignoodletitling";
+	color:  #16BBB6 ;
+	font-size: .9cm;
+}
+
+#alumni img{
+	width:550px;
+	height:250px;
+	float:center;
+	margin-right: 25px;
+	margin-bottom: 15px;
+
+}
+
+
+
+
+
+.photo-gallery {
+  color:#313437;
+  //background-color:#fff;
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:100%;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+ padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
