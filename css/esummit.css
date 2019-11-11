@@ -1,1 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+
+body{
+   background-image: url('../images/esummit.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+
+.main-body{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  color:white;
+
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.holder1{
+    
+    text-align: center;
+   padding-top:150px;
+   padding-bottom: 100px;
+   margin-top:-80px;
+   margin-bottom: -10px;
+
+}
+.a1{
+    font-family: 'Libre Baskerville', serif;
+    color:rgb(166, 221, 241);
+    font-size: 50px;
+    padding:40px;
+}
+.a2{
+    color:rgb(133, 194, 216);
+    font-size: 30px;
+}
+.a3{
+    color: white;
+    padding: 25px;
+    font-family: 'EB Garamond', serif;
+}
+.lss{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", serif;
+}
+
+
+@media(max-width:992px){
+    .holder1{
+        margin-top: -22px;
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+}
+
+@media(max-width:767px){
+    .a1{
+        font-size: 30px;
+        padding: 25px;
+    }
+    .a3{
+        font-size: 30px;
+    }
+    .gg1,.gg2{
+        margin-bottom: 10px;
+    }
+}
+
+.btn:hover {
+
+  background-color: #fff; /* Green */
+  color: #087dd1;
+
+}
+.btn{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none:
+
+}
+
+
 
