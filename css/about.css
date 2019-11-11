@@ -1,5 +1,5 @@
 body{
-   background-image: url('../images/abou.jpg');
+   background-image: url('../images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -43,14 +43,12 @@ body{
   padding-bottom: 30px;
   color: #fff;
 }
-
-
-#about .nav_links button:hover {
+.btn:hover {
 
   background-color: #fff; /* Green */
   color: #087dd1;
 }
-li, a {
+ a {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	color: #edf0f1;
