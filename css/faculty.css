@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inknut Antiqua');
 body{
    background-image: url('../images/faculty.jpg');
   background-repeat: no-repeat;
@@ -15,7 +17,7 @@ body{
   font-weight: 700;
   position: relative;
   padding-bottom: 20px;
-  font-family:bignoodletitling;
+  font-family:'Inknut Antiqua';
 }
 
 .sec-header h3::before {
@@ -165,11 +167,11 @@ body{
  overflow-y:hidden;
 }
 
-p {
-    font-family: "'Inknut Antiqua'";
+/*p {
+    font-family: 'Inknut Antiqua';
     font-size: 20px;
-    color: #000;
-}
+    color: #fff;
+}*/
 h2{
   color: #fff;
 
