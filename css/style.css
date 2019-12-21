@@ -1013,9 +1013,9 @@ font-size: 60px;
 --------------------------------*/
 
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../images/wall1.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 80px 0;
+  padding: 120px 0;
   position: relative;
 }
 
@@ -1104,7 +1104,7 @@ font-size: 60px;
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #2bc8fc;
   color: #fff;
 }
 
@@ -1164,7 +1164,7 @@ font-size: 60px;
 
 #portfolio .portfolio-item figure .link-preview:hover,
 #portfolio .portfolio-item figure .link-details:hover {
-  background: #18d26e;
+  background: #2bc8fc;
 }
 
 #portfolio .portfolio-item figure .link-preview:hover i,
@@ -1213,7 +1213,7 @@ font-size: 60px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #18d26e;
+  color: #2bc8fc;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
