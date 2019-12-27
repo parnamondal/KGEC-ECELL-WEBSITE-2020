@@ -1,5 +1,5 @@
 body{
-  // background-image: url('../images/abou.jpg');
+  background-image: url('../images/wallo3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -27,7 +27,9 @@ body{
   bottom: 1px;
   left: calc(50% - 60px);
 }
-
+.item :hover{
+  opacity :1.0;
+}
 .sec-header h3::after {
   content: '';
   position: absolute;
