@@ -1,5 +1,5 @@
 body{
-  background-image: url('../images/wallo3.jpg');
+  background-image: url('../images/wallo5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -116,19 +116,19 @@ h7{
 
 
 .photo-gallery {
-  color:#313437;
+  color:white;
   //background-color:#fff;
 }
 
 .photo-gallery p {
-  color:#7d8285;
+  color:white;
 }
 
 .photo-gallery h2 {
   font-weight:bold;
   margin-bottom:40px;
   padding-top:40px;
-  color:inherit;
+  color:white;
 }
 
 @media (max-width:767px) {
