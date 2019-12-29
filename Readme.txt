@@ -9,4 +9,4 @@ Developed with :
 4) JAVASCRIPT
 5) JQUERY
 
-Website developing is in progress .
+Website development is in progress .
