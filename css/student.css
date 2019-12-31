@@ -192,3 +192,12 @@ body{
  button:hover, a:hover {
     opacity: 0.7;
 }
+
+#full {
+	padding-left:25%
+}
+.white{
+	background-color: white;
+	margin-left:10%;
+	margin-right:10%
+}
