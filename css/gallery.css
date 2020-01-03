@@ -6,7 +6,7 @@ body{
   background-attachment: fixed;
 }
 
-.sec-header h3 {
+/*.sec-header h3 {
   font-size: 36px;
   color: #16BBB6 ;
   text-transform: uppercase;
@@ -49,9 +49,9 @@ body{
 
 #about .nav_links button:hover {
 
-  background-color: #fff; /* Green */
+  background-color: #fff; /* Green
   color: #087dd1;
-}
+} */
 li, a {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
@@ -60,7 +60,7 @@ li, a {
 
 }
 
-.nav_links{
+/*.nav_links{
 	list-style: none;
 
 }
@@ -113,7 +113,7 @@ h7{
 
 
 
-
+*/
 
 .photo-gallery {
   color:white;
@@ -122,23 +122,24 @@ h7{
 
 .photo-gallery p {
   color:white;
+
 }
 
 .photo-gallery h2 {
   font-weight:bold;
-  margin-bottom:40px;
+  
   padding-top:40px;
   color:white;
 }
 
-@media (max-width:767px) {
+/*@media (max-width:767px) {
   .photo-gallery h2 {
     margin-bottom:25px;
     padding-top:25px;
     font-size:100%;
   }
 }
-
+*/
 .photo-gallery .intro {
   font-size:16px;
   max-width:500px;
@@ -149,13 +150,9 @@ h7{
   margin-bottom:0;
 }
 
-.photo-gallery .photos {
- padding-bottom:20px;
-}
 
-.photo-gallery .item {
-  padding-bottom:30px;
- }
+
+
 
 
   
