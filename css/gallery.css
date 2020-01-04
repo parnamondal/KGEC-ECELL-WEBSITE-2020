@@ -1,10 +1,13 @@
 body{
-  background-image: url('../images/wallo5.jpg');
+  background-image: url('../images/p5.jpg');
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
+
+
 
 /*.sec-header h3 {
   font-size: 36px;
@@ -116,8 +119,8 @@ h7{
 */
 
 .photo-gallery {
-  color:white;
-  //background-color:#fff;
+  color:#022952;
+  
 }
 
 .photo-gallery p {
