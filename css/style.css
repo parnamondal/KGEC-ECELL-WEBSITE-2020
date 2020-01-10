@@ -1863,11 +1863,14 @@ font-size: 60px;
     width: 80%;
   }
 }
+/*@media (min-width: 1024px) {
+  #header #logo img {
+   width :85px;
+  height :85px;
+  padding:  3px;
+  margin: 0 0 0px 0;
+  }*/
 @media (min-width: 1024px) {
-  #header #logo {
-    padding-left: 60px;
-  }
-
   #intro p {
     width: 60%;
   }
@@ -1887,13 +1890,13 @@ font-size: 60px;
     bottom: 15px;
   }
 
-  #header #logo h1 {
-    font-size: 28px;
-  }
+  
 
   #header #logo img {
-    max-height: 62px;
-    max-width :65px;
+   width :85px;
+  height :85px;
+  padding:  3px;
+  margin: 0 0 0px 0;
   }
 
   #intro h2 {
