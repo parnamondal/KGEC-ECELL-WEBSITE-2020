@@ -782,7 +782,21 @@ font-size: 60px;
 #tasks .cn1 h3{
   color:#465270;
 }
-
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait) {
+  #tasks  .grid2   {
+    padding-right :15px;
+    
+  }
+ 
+}
 
 /* About Us Section
 --------------------------------*/
@@ -1767,11 +1781,6 @@ font-size: 60px;
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media only screen  and (max-width : 392px) {
-    .grid2{
-       padding-left:40vw;
-    }
-}
 
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
  .grid2{
@@ -1911,3 +1920,14 @@ font-size: 60px;
     display: inline;
   }
 }
+@media (max-width: 768px) {
+  #sankalp  .grid2   {
+
+ 
+  padding-left: 275px;
+}
+ 
+                           }
+   
+    
+ 
