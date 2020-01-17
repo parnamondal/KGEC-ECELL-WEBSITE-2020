@@ -1894,7 +1894,28 @@ and (orientation: portrait) {
     padding-right: 60px;
   }
 }
+@media (max-width: 480px) {
+  #intro .carousel-item {
 
+  max-width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#intro .carousel-item::before {
+  content: '';
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; 
+}
+}
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
@@ -1913,7 +1934,8 @@ and (orientation: portrait) {
     font-size: 28px;
   }
   #intro .carousel-item {
-  width: 100%;
+
+  max-width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
