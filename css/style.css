@@ -1902,8 +1902,8 @@ and (orientation: portrait) {
   
 
   #header #logo img {
-   width :75px;
-  height :75px;
+   width :80px;
+  height :80px;
   
   margin: 0 0 0px 0;
   }
@@ -1924,7 +1924,7 @@ and (orientation: portrait) {
   #sankalp  .grid2   {
 
  
-  padding-left: 195px;
+  padding-left: 125px;
 }
  
                            }
