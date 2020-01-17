@@ -1912,6 +1912,27 @@ and (orientation: portrait) {
   #intro h2 {
     font-size: 28px;
   }
+  #intro .carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#intro .carousel-item::before {
+  content: '';
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  
+}
+
 
   #nav-menu-container {
     display: none;
