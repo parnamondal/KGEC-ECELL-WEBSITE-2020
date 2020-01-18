@@ -1939,7 +1939,7 @@ and (orientation: portrait) {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 #intro .carousel-item{
-       width:100%;
+       width:100%;s
         height:350px;
 }}
 
@@ -1956,6 +1956,10 @@ and (orientation: portrait) {
 @media (max-width: 768px) {
   #sankalp  .grid2   {
   padding-left: 115px;
+}
+#intro .carousel-item{
+  width:100%;
+        height:auto;
 }
  
                            }
