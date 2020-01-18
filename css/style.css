@@ -1938,24 +1938,24 @@ and (orientation: portrait) {
 }*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
- .carousel-item{
-      width:100%;
+#intro .carousel-item{
+      width:100px;
         height:350px;
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 /* Styles */
- .carousel-item{
-  width:100%;
+#intro .carousel-item{
+  width:100px;
         height:300px;
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 /* Styles */
- .carousel-item{
-  width:100%;
+#intro .carousel-item{
+  width:100px;
         height:150px;
 }
 
