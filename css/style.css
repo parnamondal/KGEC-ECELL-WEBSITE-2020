@@ -249,6 +249,7 @@ h6 {
 
 #intro .carousel-background img {
   max-width: 100%;
+  height:100%;
 }
 
 #intro .carousel-content {
@@ -1894,28 +1895,6 @@ and (orientation: portrait) {
     padding-right: 60px;
   }
 }
-@media (max-width: 480px) {
-  #intro .carousel-item {
-
-  max-width: 100%;
-  height: 50px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#intro .carousel-item::before {
-  content: '';
-  background-color: rgba(0,0,0,0);
-  position: relative;
-  height:50%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0; 
-}
-}
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
@@ -1933,27 +1912,6 @@ and (orientation: portrait) {
   #intro h2 {
     font-size: 28px;
   }
-  #intro .carousel-item {
-
-  max-width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#intro .carousel-item::before {
-  content: '';
-  background-color: rgba(0,0,0,0);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  
-}
 
 
   #nav-menu-container {
@@ -1964,11 +1922,24 @@ and (orientation: portrait) {
     display: inline;
   }
 }
+@media only screen  and (max-width : 992px){
+    #introCarousel{
+        padding-top: 8vh;
+    }
+}
+@media(max-width:782px){
+    .carousel-item{
+        height:450px;
+    }
+}
+@media only screen  and (max-width : 578px) {
+    .carousel-item{
+        height:350px;
+    }
+}
 @media (max-width: 768px) {
   #sankalp  .grid2   {
-
- 
-  padding-left: 125px;
+  padding-left: 115px;
 }
  
                            }
