@@ -1927,19 +1927,38 @@ and (orientation: portrait) {
         padding-top: 8vh;
     }
 }
-@media(max-width:782px){
+/*@media(max-width:782px){
     .carousel-item{
         height:450px;
     }
 }
 @media only screen  and (max-width : 578px) {
-    .carousel-item{
-        height:350px;
+   c
     }
+}*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+ .carousel-item{
+        height:350px;
 }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+ .carousel-item{
+        height:300px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+ .carousel-item{
+        height:150px;
+}
+
 @media (max-width: 768px) {
   #sankalp  .grid2   {
-  padding-left: 115px;
+  padding-left: 105px;
 }
  
                            }
