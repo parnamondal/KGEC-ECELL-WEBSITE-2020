@@ -1939,17 +1939,11 @@ and (orientation: portrait) {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 #intro .carousel-item{
-      width:100%;
+       width:100%;
         height:350px;
 }}
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
-#intro .carousel-item{
-  width:100%;
-        height:300px;
-}}
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
