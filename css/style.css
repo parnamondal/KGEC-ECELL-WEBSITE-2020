@@ -1922,12 +1922,12 @@ and (orientation: portrait) {
     display: inline;
   }
 }
-@media only screen  and (max-width : 992px){
+/*@media only screen  and (max-width : 992px){
     #introCarousel{
         padding-top: 8vh;
     }
 }
-/*@media(max-width:782px){
+@media(max-width:782px){
     .carousel-item{
         height:450px;
     }
