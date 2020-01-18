@@ -1941,7 +1941,7 @@ and (orientation: portrait) {
 #intro .carousel-item{
       width:100px;
         height:350px;
-}
+}}
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
@@ -1949,7 +1949,7 @@ and (orientation: portrait) {
 #intro .carousel-item{
   width:100px;
         height:300px;
-}
+}}
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
@@ -1957,11 +1957,11 @@ and (orientation: portrait) {
 #intro .carousel-item{
   width:100px;
         height:150px;
-}
+}}
 
 @media (max-width: 768px) {
   #sankalp  .grid2   {
-  padding-left: 125px;
+  padding-left: 105px;
 }
  
                            }
