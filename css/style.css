@@ -1949,6 +1949,13 @@ and (orientation: portrait) {
 #intro .intro-container{
   height:300px;
 }
+
+#intro .introCarousel{
+  height:300px;
+}
+#intro .carousel-inner{
+  height:300px;
+}
 #intro .carousel-item{
        max-width:100%;
        }
@@ -1966,6 +1973,12 @@ and (orientation: portrait) {
        height:300px;
        }
        #intro .intro-container{
+  height:300px;
+}
+#intro .introCarousel{
+  height:300px;
+}
+#intro .carousel-inner{
   height:300px;
 }
 }
