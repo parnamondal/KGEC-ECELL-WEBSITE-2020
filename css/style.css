@@ -1946,6 +1946,9 @@ and (orientation: portrait) {
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 /* Styles */
+#intro .intro-container{
+  height:auto;
+}
 #intro .carousel-item{
        max-width:100%;
        }
@@ -1957,6 +1960,12 @@ and (orientation: portrait) {
   max-width:100%;
         height:150px;
 }}
+@media only screen and (max-width: 600px) {
+  #intro .carousel-item{
+       max-width:100%;
+       height:300px;
+       }
+}
 
 @media (max-width: 768px) {
   #sankalp  .grid2   {
