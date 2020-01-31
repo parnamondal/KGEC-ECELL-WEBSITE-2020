@@ -78,12 +78,21 @@ body{
 .nav_links li a:hover {
 	color: #0088a9;
 }
-#about img{
-	width:400px;
-	height:200px;
-	float:left;
-	margin-right: 20px;
-	margin-bottom: 10px;
+#vision img{
+	width:600px;
+	height:300px;
+}
+#achievement img{
+  width:600px;
+  height:300px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+#initiative img{
+  width:600px;
+  height:300px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 p{
 
@@ -95,13 +104,14 @@ p{
 h7{
 	font-family: "bignoodletitling";
 	color:  #16BBB6 ;
-	font-size: .9cm;
+	font-size: .7cm;
+  
 }
 
 #alumni img{
 	width:550px;
 	height:250px;
-	float:center;
+	float:left;
 	margin-right: 25px;
 	margin-bottom: 15px;
 
