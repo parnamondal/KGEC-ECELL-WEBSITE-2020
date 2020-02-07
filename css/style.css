@@ -1943,7 +1943,7 @@ and (orientation: portrait) {
 }*/
 
 @media only screen and (max-device-width: 480px) {
-#intro .carousel-background {
+#intro .carousel-background img {
   width:100%;
   height:100%
 }
