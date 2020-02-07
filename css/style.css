@@ -212,11 +212,12 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0.55);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -245,11 +246,13 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  
 }
 
 #intro .carousel-background img {
   max-width: 100%;
   height:100%;
+  opacity :0.8;
 }
 
 #intro .carousel-content {
@@ -261,7 +264,9 @@ h6 {
   margin-bottom: 30px;
   font-size: 45px;
   font-weight: 700;
+  
 }
+
 
 #intro p {
   width: 80%;
@@ -280,7 +285,7 @@ h6 {
 #intro .carousel-fade .carousel-inner .carousel-item,
 #intro .carousel-fade .carousel-inner .active.carousel-item-left,
 #intro .carousel-fade .carousel-inner .active.carousel-item-right {
-  opacity :0;
+  opacity :1;
 }
 
 #intro .carousel-fade .carousel-inner .active,
@@ -1943,45 +1948,6 @@ and (orientation: portrait) {
         height:350px;
 }}
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
-#intro .intro-container{
-  height:300px;
-}
-
-#intro .introCarousel{
-  height:300px;
-}
-#intro .carousel-inner{
-  height:300px;
-}
-#intro .carousel-item{
-       max-width:100%;
-       }
-}
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
-#intro .carousel-item{
-  max-width:100%;
-        height:150px;
-}}
-@media only screen and (max-width: 600px) {
-  #intro .carousel-item{
-       max-width:100%;
-       height:300px;
-       }
-       #intro .intro-container{
-  height:300px;
-}
-#intro .introCarousel{
-  height:300px;
-}
-#intro .carousel-inner{
-  height:300px;
-}
-}
 
 @media (max-width: 768px) {
   #sankalp  .grid2   {
