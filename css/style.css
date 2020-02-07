@@ -1945,12 +1945,11 @@ and (orientation: portrait) {
     }
 }*/
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   #introCarousel{
-      overflow-x:visible;
-   overflow-y: hidden;
+      
    width:100%;
-   height:400px;
+   height:200px;
   }
 }
 
