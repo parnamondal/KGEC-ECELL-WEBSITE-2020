@@ -4,7 +4,10 @@ This is the official website of KGEC E-Cell for the year 2020 . It's loaded with
 It's good for compelling and thought-provoking pieces on entrepreneurial life and business best practices. 
 
 A clip of the Website . 
+
 ![Alt Text](images/done.gif) 
+
+rv f
 
 ### _Programming language used in the project are :_
 
