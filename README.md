@@ -7,7 +7,7 @@ A clip of the Website .
 
 ![Alt Text](images/done.gif) 
 
-rv f
+
 
 ### _Programming language used in the project are :_
 
