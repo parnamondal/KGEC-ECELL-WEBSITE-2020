@@ -99,6 +99,7 @@ background-image:url('../images/esummit.jpg');
 .test img{
   width: 35px;
   height:80px;
+  margin: 20px 5%;
   padding-right :30px;
   padding-left:30px;
   overflow-x: hidden;
