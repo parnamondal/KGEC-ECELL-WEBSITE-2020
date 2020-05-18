@@ -97,8 +97,8 @@ background-image:url('../images/esummit.jpg');
    }
    html
 .test img{
-  width: 100px;
-  height:250px;
+  width: 50px;
+  height:150px;
   overflow-x: hidden;
 }
 
