@@ -1923,7 +1923,7 @@ and (orientation: portrait) {
 
 
   #nav-menu-container {
-    display: ;
+    display: none;
   }
 
   #mobile-nav-toggle {
